@@ -35,6 +35,7 @@
             this.btn_NewPlayer = new System.Windows.Forms.Button();
             this.btn_About = new System.Windows.Forms.Button();
             this.btn_HighScores = new System.Windows.Forms.Button();
+            this.btn_LoadPlayer = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_GameSlogan
@@ -62,13 +63,14 @@
             this.btn_NewGame.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tomato;
             this.btn_NewGame.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_NewGame.ForeColor = System.Drawing.Color.Firebrick;
-            this.btn_NewGame.Location = new System.Drawing.Point(137, 651);
+            this.btn_NewGame.Location = new System.Drawing.Point(31, 651);
             this.btn_NewGame.Margin = new System.Windows.Forms.Padding(0);
             this.btn_NewGame.Name = "btn_NewGame";
             this.btn_NewGame.Size = new System.Drawing.Size(160, 48);
             this.btn_NewGame.TabIndex = 1;
             this.btn_NewGame.Text = "New Game";
             this.btn_NewGame.UseVisualStyleBackColor = false;
+            this.btn_NewGame.Click += new System.EventHandler(this.btn_NewGame_Click);
             // 
             // btn_Options
             // 
@@ -82,13 +84,14 @@
             this.btn_Options.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tomato;
             this.btn_Options.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Options.ForeColor = System.Drawing.Color.Firebrick;
-            this.btn_Options.Location = new System.Drawing.Point(597, 651);
+            this.btn_Options.Location = new System.Drawing.Point(712, 651);
             this.btn_Options.Margin = new System.Windows.Forms.Padding(0);
             this.btn_Options.Name = "btn_Options";
             this.btn_Options.Size = new System.Drawing.Size(160, 48);
             this.btn_Options.TabIndex = 1;
             this.btn_Options.Text = "Options";
             this.btn_Options.UseVisualStyleBackColor = false;
+            this.btn_Options.Click += new System.EventHandler(this.btn_Options_Click);
             // 
             // btn_NewPlayer
             // 
@@ -103,7 +106,7 @@
             this.btn_NewPlayer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tomato;
             this.btn_NewPlayer.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_NewPlayer.ForeColor = System.Drawing.Color.Firebrick;
-            this.btn_NewPlayer.Location = new System.Drawing.Point(366, 651);
+            this.btn_NewPlayer.Location = new System.Drawing.Point(482, 651);
             this.btn_NewPlayer.Margin = new System.Windows.Forms.Padding(0);
             this.btn_NewPlayer.Name = "btn_NewPlayer";
             this.btn_NewPlayer.Size = new System.Drawing.Size(168, 48);
@@ -125,13 +128,14 @@
             this.btn_About.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tomato;
             this.btn_About.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_About.ForeColor = System.Drawing.Color.Firebrick;
-            this.btn_About.Location = new System.Drawing.Point(1078, 651);
+            this.btn_About.Location = new System.Drawing.Point(1153, 651);
             this.btn_About.Margin = new System.Windows.Forms.Padding(0);
             this.btn_About.Name = "btn_About";
             this.btn_About.Size = new System.Drawing.Size(160, 48);
             this.btn_About.TabIndex = 3;
             this.btn_About.Text = "About";
             this.btn_About.UseVisualStyleBackColor = false;
+            this.btn_About.Click += new System.EventHandler(this.btn_About_Click);
             // 
             // btn_HighScores
             // 
@@ -145,14 +149,36 @@
             this.btn_HighScores.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tomato;
             this.btn_HighScores.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_HighScores.ForeColor = System.Drawing.Color.Firebrick;
-            this.btn_HighScores.Location = new System.Drawing.Point(834, 651);
+            this.btn_HighScores.Location = new System.Drawing.Point(933, 651);
             this.btn_HighScores.Margin = new System.Windows.Forms.Padding(0);
             this.btn_HighScores.Name = "btn_HighScores";
             this.btn_HighScores.Size = new System.Drawing.Size(177, 48);
             this.btn_HighScores.TabIndex = 4;
             this.btn_HighScores.Text = "High Scores";
             this.btn_HighScores.UseVisualStyleBackColor = false;
-            this.btn_HighScores.Click += new System.EventHandler(this.button1_Click);
+            this.btn_HighScores.Click += new System.EventHandler(this.btn_HighScores_Click);
+            // 
+            // btn_LoadPlayer
+            // 
+            this.btn_LoadPlayer.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar;
+            this.btn_LoadPlayer.AutoSize = true;
+            this.btn_LoadPlayer.BackColor = System.Drawing.Color.White;
+            this.btn_LoadPlayer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btn_LoadPlayer.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btn_LoadPlayer.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_LoadPlayer.FlatAppearance.BorderSize = 0;
+            this.btn_LoadPlayer.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
+            this.btn_LoadPlayer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tomato;
+            this.btn_LoadPlayer.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_LoadPlayer.ForeColor = System.Drawing.Color.Firebrick;
+            this.btn_LoadPlayer.Location = new System.Drawing.Point(244, 651);
+            this.btn_LoadPlayer.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_LoadPlayer.Name = "btn_LoadPlayer";
+            this.btn_LoadPlayer.Size = new System.Drawing.Size(178, 48);
+            this.btn_LoadPlayer.TabIndex = 5;
+            this.btn_LoadPlayer.Text = "Load Player";
+            this.btn_LoadPlayer.UseVisualStyleBackColor = false;
+            this.btn_LoadPlayer.Click += new System.EventHandler(this.btn_LoadPlayer_Click);
             // 
             // BeerPongStartScreen
             // 
@@ -162,6 +188,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(1334, 712);
+            this.Controls.Add(this.btn_LoadPlayer);
             this.Controls.Add(this.btn_HighScores);
             this.Controls.Add(this.btn_About);
             this.Controls.Add(this.btn_NewPlayer);
@@ -190,6 +217,7 @@
         private System.Windows.Forms.Button btn_NewPlayer;
         private System.Windows.Forms.Button btn_About;
         private System.Windows.Forms.Button btn_HighScores;
+        private System.Windows.Forms.Button btn_LoadPlayer;
     }
 }
 

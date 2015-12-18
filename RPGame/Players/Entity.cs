@@ -8,6 +8,7 @@ namespace RPGame.Players
 
 {
     public enum EntityGender { Male, Female, Other}
+    public enum playerLevel { Amateur, Beginner, Pro, Expert, Legend }
     public abstract class Entity
     {
         #region Fields

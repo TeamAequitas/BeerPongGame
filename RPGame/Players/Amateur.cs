@@ -7,7 +7,7 @@ using RPGame.Players;
 
 namespace RPGame.Players
 {
-    public class Amateur : Entity
+    public class Amateur : Player
     {
         public Amateur()
             : base()
@@ -15,11 +15,12 @@ namespace RPGame.Players
            
         }
 
-        public Amateur(string name, EntityGender gender)
+        public Amateur(string name, EntityGender gender, int money=1000)
             : base()
         {
             Name = name;
             Gender = gender;
+            Money = money;
         }
 
 
