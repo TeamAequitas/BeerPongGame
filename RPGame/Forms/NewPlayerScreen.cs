@@ -67,33 +67,34 @@ namespace RPGame.Forms
             }
             else
             {
-                MessageBox.Show("Grab your balls "+ name +", and may The Force be with you!");
+                MessageBox.Show("Grab your balls " + name + ", and may The Force be with you!");
+
+
+
+
+                switch (cbx_Level.Text)
+                {
+                    case "Amateur":
+                        level = playerLevel.Amateur;
+                        break;
+                    case "Beginner":
+                        level = playerLevel.Beginner;
+                        break;
+                    case "Pro":
+                        level = playerLevel.Pro;
+                        break;
+                    case "Expert":
+                        level = playerLevel.Expert;
+                        break;
+                    case "Legend":
+                        level = playerLevel.Legend;
+                        break;
+                }
+
+                Player player1 = new Player(name, gender, level, 0);
+
+                this.Close();
             }
-
-            
-
-            switch (cbx_Level.Text)
-            {
-                case "Amateur":
-                    level = playerLevel.Amateur;
-                    break;
-                case "Beginner":
-                    level = playerLevel.Beginner;
-                    break;
-                case "Pro":
-                    level = playerLevel.Pro;
-                    break;
-                case "Expert":
-                    level = playerLevel.Expert;
-                    break;
-                case "Legend":
-                    level = playerLevel.Legend;
-                    break;
-            }
-
-            Player player1=new Player(name,  gender, level, 0 );
-            
-            this.Close();
         }
 
         private void NewPlayer_Load(object sender, EventArgs e)

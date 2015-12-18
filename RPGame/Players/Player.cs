@@ -50,12 +50,14 @@ namespace RPGame.Players
 
         #region Constructor
 
-        public Player(string name, playerLevel level, int money)
+        public Player(string name,EntityGender gender, playerLevel level, int money)
          : base()
         {
             Name = this.name;
-            Money = this.money;
+            Gender = this.gender;
             Level = this.level;
+            Money = this.money;
+            
         }
 
 

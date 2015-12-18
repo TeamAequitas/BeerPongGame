@@ -117,6 +117,7 @@
             "Beginner",
             "Amateur",
             "Pro",
+            "Expert",
             "Legend"});
             this.cbx_Level.Location = new System.Drawing.Point(46, 211);
             this.cbx_Level.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
