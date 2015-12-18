@@ -14,9 +14,8 @@ namespace RPGame
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BeerPongStartScreen());
+            GameEngine game = new GameEngine();
+            game.Run();
         }
     }
 }

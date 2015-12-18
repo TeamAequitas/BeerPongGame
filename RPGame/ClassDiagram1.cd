@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RPGame.BeerPongStartScreen" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAIiAAAAGKAAAAANEAABAEGAAAAA=</HashCode>
+      <FileName>Forms\BeerPongStartScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGame.GameEngine" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>GameEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGame.NonPlayer" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Players\NonPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGame.Program" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGame.Forms.GameScreen" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\GameScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGame.Forms.MainMap" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\MainMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGame.Forms.NewPlayerScreen" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAgAAAAEAGAACEAAAgCAAQgCIAAAAABAAAAABAAAAAA=</HashCode>
+      <FileName>Forms\NewPlayerScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGame.Players.Amateur" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAQAAAgEAAAAQAAAAABAAgAAQAIgBAAAAAg=</HashCode>
+      <FileName>Players\Amateur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGame.Players.Entity" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAiAAAAIgAAAAABAAAAEQAAABAAAAAg=</HashCode>
+      <FileName>Players\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGame.Players.Player" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAQAAAEEAAABAAAAAAAAEAA=</HashCode>
+      <FileName>Players\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGame.Properties.Resources" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGame.Properties.Settings" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="RPGame.Players.EntityGender" Collapsed="true">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Players\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RPGame.Players.playerLevel" Collapsed="true">
+    <Position X="7" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAAAAAAAAAAAAgAAABAAAAAAAAAAAAAAEAAABAAAA=</HashCode>
+      <FileName>Players\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -118,7 +118,7 @@
             "Amateur",
             "Pro",
             "Legend"});
-            this.cbx_Level.Location = new System.Drawing.Point(46, 226);
+            this.cbx_Level.Location = new System.Drawing.Point(46, 211);
             this.cbx_Level.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.cbx_Level.Name = "cbx_Level";
             this.cbx_Level.Size = new System.Drawing.Size(414, 35);
@@ -127,7 +127,7 @@
             // lbl_Level
             // 
             this.lbl_Level.AutoSize = true;
-            this.lbl_Level.Location = new System.Drawing.Point(58, 193);
+            this.lbl_Level.Location = new System.Drawing.Point(57, 178);
             this.lbl_Level.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Level.Name = "lbl_Level";
             this.lbl_Level.Size = new System.Drawing.Size(106, 27);
