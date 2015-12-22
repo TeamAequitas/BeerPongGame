@@ -4,10 +4,11 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
+using RPGame.Interfaces;
 
 namespace RPGame.Players
 {
-    public partial class Player : Entity
+    public partial class Player : Entity, IMovable
     {
 
         public Player()

@@ -57,6 +57,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pic_PlayerBall = new System.Windows.Forms.PictureBox();
+            
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
@@ -91,7 +92,7 @@
             this.lbl_Strength.Size = new System.Drawing.Size(153, 18);
             this.lbl_Strength.TabIndex = 0;
             this.lbl_Strength.Text = "Enter Your Strength:";
-            this.lbl_Strength.Click += new System.EventHandler(this.label1_Click);
+            
             // 
             // tbx_Strength
             // 
@@ -123,7 +124,7 @@
             this.lbl_Angle.Size = new System.Drawing.Size(132, 18);
             this.lbl_Angle.TabIndex = 2;
             this.lbl_Angle.Text = "Enter Your Angle:";
-            this.lbl_Angle.Click += new System.EventHandler(this.lbl_Angle_Click);
+            
             // 
             // btn_Shoot
             // 
@@ -139,6 +140,7 @@
             this.btn_Shoot.TabIndex = 4;
             this.btn_Shoot.Text = "SHOOT!";
             this.btn_Shoot.UseVisualStyleBackColor = true;
+            this.btn_Shoot.Click += new System.EventHandler(this.btn_Shoot_Click);
             // 
             // btn_CiveUp
             // 
@@ -455,7 +457,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+           // this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox2
             // 
@@ -466,13 +468,13 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+           // this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pic_PlayerBall
             // 
             this.pic_PlayerBall.BackColor = System.Drawing.Color.Transparent;
             this.pic_PlayerBall.Image = global::RPGame.Properties.Resources.ball;
-            this.pic_PlayerBall.Location = new System.Drawing.Point(287, 35);
+            this.pic_PlayerBall.Location = new System.Drawing.Point(12, 285);
             this.pic_PlayerBall.Name = "pic_PlayerBall";
             this.pic_PlayerBall.Size = new System.Drawing.Size(30, 30);
             this.pic_PlayerBall.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

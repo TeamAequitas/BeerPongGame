@@ -22,11 +22,7 @@ namespace RPGame.Forms
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void tbx_Angle_TextChanged(object sender, EventArgs e)
         {
             int angle;
@@ -41,10 +37,7 @@ namespace RPGame.Forms
                 angle = angle/360;} 
         }
 
-        private void lbl_Angle_Click(object sender, EventArgs e)
-        {
-           
-        }
+        
 
         private void tbx_Strength_TextChanged(object sender, EventArgs e)
         {
@@ -52,19 +45,18 @@ namespace RPGame.Forms
             strength = int.Parse(this.tbx_Strength.Text);
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_CiveUp_Click(object sender, EventArgs e)
+       private void btn_CiveUp_Click(object sender, EventArgs e)
         {
             ActiveForm.Close();
+        }
+
+        private void btn_Shoot_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Timer timer1;
+
+         
+            
+
         }
     }
 }

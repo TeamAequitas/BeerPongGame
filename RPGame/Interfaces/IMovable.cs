@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace RPGame.Interfaces
 {
-    public interface IDrawable
+    public interface IMovable
     {
-         void Draw();
+        void Move(int deltaX, int deltaY);
     }
 }

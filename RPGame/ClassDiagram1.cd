@@ -1,87 +1,123 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="RPGame.BeerPongStartScreen" Collapsed="true">
-    <Position X="5.25" Y="0.5" Width="1.5" />
+    <Position X="3.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAACAAAAAAAIiAAAAGKAAAAANEAABAEGAAAAA=</HashCode>
       <FileName>Forms\BeerPongStartScreen.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="RPGame.GameEngine" Collapsed="true">
-    <Position X="7" Y="0.5" Width="1.5" />
+    <Position X="9" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
       <FileName>GameEngine.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="RPGame.NonPlayer" Collapsed="true">
-    <Position X="0.5" Y="1.75" Width="1.5" />
+    <Position X="0.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Players\NonPlayer.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="RPGame.Program" Collapsed="true">
-    <Position X="8.75" Y="1.5" Width="1.5" />
+    <Position X="9" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="RPGame.Forms.GameScreen" Collapsed="true">
-    <Position X="8.75" Y="0.5" Width="1.5" />
+    <Position X="7" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAMxAAECAAAQBAABCAQAACAQAEAAAISAEiAABAAAI=</HashCode>
       <FileName>Forms\GameScreen.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="RPGame.Forms.MainMap" Collapsed="true">
-    <Position X="5.25" Y="1.5" Width="1.5" />
+    <Position X="5.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAACgAAAAAAACAAAQCAAAAAAAAAFAAAABAAAA=</HashCode>
       <FileName>Forms\MainMap.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="RPGame.Forms.NewPlayerScreen" Collapsed="true">
-    <Position X="7" Y="1.5" Width="1.5" />
+    <Position X="5.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>QAgAAAAEAGAACEAAAgCAAQgCIAAAAABAAAAABAAAAAA=</HashCode>
+      <HashCode>QAgAAAAEAGAACEAAAoCAAQgCIAAAAABAAQAABAAAAAA=</HashCode>
       <FileName>Forms\NewPlayerScreen.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="RPGame.Players.Amateur" Collapsed="true">
-    <Position X="2.75" Y="3.25" Width="1.5" />
+    <Position X="0.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAACAAAAAQAAAgEAAAAQAAAAABAAgAAQAIgBAAAAAg=</HashCode>
       <FileName>Players\Amateur.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="RPGame.Players.Entity" Collapsed="true">
-    <Position X="1.75" Y="0.5" Width="1.5" />
+    <Position X="1" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
       <HashCode>AAAACAAAAAAAAAiAAAAIgAAAAABAAAAEQAAABAAAAAg=</HashCode>
       <FileName>Players\Entity.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="RPGame.Players.Player" Collapsed="true">
-    <Position X="2.75" Y="1.75" Width="1.5" />
+    <Position X="3" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
       <HashCode>AAAQAAAAAAAAAAAAAAAAAAQAAAEEAAABAAAAAAAAEAA=</HashCode>
       <FileName>Players\Player.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="RPGame.Properties.Resources" Collapsed="true">
     <Position X="5.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+      <HashCode>AAAAiAIAAAAACQAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
     </TypeIdentifier>
   </Class>
   <Class Name="RPGame.Properties.Settings" Collapsed="true">
-    <Position X="7" Y="2.5" Width="1.5" />
+    <Position X="9" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
     </TypeIdentifier>
   </Class>
+  <Class Name="RPGame.Forms.About" Collapsed="true">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAAAAAICAAAACAAAAAAAAAQAAAABAAAA=</HashCode>
+      <FileName>Forms\About.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGame.Forms.HighScores" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAARAAAICAAAACBAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Forms\HighScores.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGame.Players.Beginner" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAQAAAgEAAAAQAAAAABAAgAAQAIgBAAAAAg=</HashCode>
+      <FileName>Players\Beginner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="RPGame.Interfaces.IDrawable" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IDrawable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Enum Name="RPGame.Players.EntityGender" Collapsed="true">
     <Position X="5.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>

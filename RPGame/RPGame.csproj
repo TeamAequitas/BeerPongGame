@@ -87,6 +87,10 @@
     </Compile>
     <Compile Include="GameEngine.cs" />
     <Compile Include="Interfaces\IDrawable.cs" />
+    <Compile Include="Interfaces\IMovable.cs" />
+    <Compile Include="Objects\BeerCup.cs" />
+    <Compile Include="Objects\MovableObject.cs" />
+    <Compile Include="Objects\PongBall.cs" />
     <Compile Include="Players\Beginner.cs" />
     <Compile Include="Players\NonPlayer.cs" />
     <Compile Include="Players\Amateur.cs" />
@@ -137,7 +141,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Map\map01.jpg" />
+    <None Include="Maps\map01.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bar.jpg" />
@@ -146,7 +150,7 @@
     <None Include="Resources\beerbaRedr.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\BrreBarTr.png" />
+    <None Include="Resources\BeerBarTr.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ball.png" />
