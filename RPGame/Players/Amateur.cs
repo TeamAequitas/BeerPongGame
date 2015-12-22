@@ -14,6 +14,12 @@ namespace RPGame.Players
         {
            
         }
+
+        public Amateur(string name, EntityGender gender)
+           : base()
+        {
+
+        }
         protected new int health=100;
         protected new int strength = 40;
         protected new int accuracy=30;
@@ -53,7 +59,7 @@ namespace RPGame.Players
         #endregion
 
 
-        public Amateur(int strengthModifier, EntityGender gender, int money = 1000)
+        public Amateur(string name, int strengthModifier, int money = 1000)
             : base()
         {
             Strength = strengthModifier;

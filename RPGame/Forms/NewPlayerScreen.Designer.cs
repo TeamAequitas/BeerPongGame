@@ -38,21 +38,22 @@
             this.cbx_Level = new System.Windows.Forms.ComboBox();
             this.lbl_Level = new System.Windows.Forms.Label();
             this.btn_SavePlayer = new System.Windows.Forms.Button();
+            this.btn_Cancel = new System.Windows.Forms.Button();
             this.gbx_Gender.SuspendLayout();
             this.SuspendLayout();
             // 
             // tbx_ChName
             // 
-            this.tbx_ChName.Location = new System.Drawing.Point(140, 25);
+            this.tbx_ChName.Location = new System.Drawing.Point(87, 25);
             this.tbx_ChName.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.tbx_ChName.Name = "tbx_ChName";
-            this.tbx_ChName.Size = new System.Drawing.Size(320, 30);
+            this.tbx_ChName.Size = new System.Drawing.Size(373, 30);
             this.tbx_ChName.TabIndex = 0;
             // 
             // lbl_ChName
             // 
             this.lbl_ChName.AutoSize = true;
-            this.lbl_ChName.Location = new System.Drawing.Point(58, 31);
+            this.lbl_ChName.Location = new System.Drawing.Point(13, 25);
             this.lbl_ChName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_ChName.Name = "lbl_ChName";
             this.lbl_ChName.Size = new System.Drawing.Size(66, 27);
@@ -64,11 +65,11 @@
             this.gbx_Gender.Controls.Add(this.rb_Other);
             this.gbx_Gender.Controls.Add(this.rb_Female);
             this.gbx_Gender.Controls.Add(this.rb_Male);
-            this.gbx_Gender.Location = new System.Drawing.Point(46, 90);
+            this.gbx_Gender.Location = new System.Drawing.Point(13, 90);
             this.gbx_Gender.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.gbx_Gender.Name = "gbx_Gender";
             this.gbx_Gender.Padding = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.gbx_Gender.Size = new System.Drawing.Size(418, 79);
+            this.gbx_Gender.Size = new System.Drawing.Size(451, 79);
             this.gbx_Gender.TabIndex = 2;
             this.gbx_Gender.TabStop = false;
             this.gbx_Gender.Text = "Gender";
@@ -119,16 +120,16 @@
             "Pro",
             "Expert",
             "Legend"});
-            this.cbx_Level.Location = new System.Drawing.Point(46, 211);
+            this.cbx_Level.Location = new System.Drawing.Point(18, 211);
             this.cbx_Level.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.cbx_Level.Name = "cbx_Level";
-            this.cbx_Level.Size = new System.Drawing.Size(414, 35);
+            this.cbx_Level.Size = new System.Drawing.Size(442, 35);
             this.cbx_Level.TabIndex = 3;
             // 
             // lbl_Level
             // 
             this.lbl_Level.AutoSize = true;
-            this.lbl_Level.Location = new System.Drawing.Point(57, 178);
+            this.lbl_Level.Location = new System.Drawing.Point(13, 175);
             this.lbl_Level.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Level.Name = "lbl_Level";
             this.lbl_Level.Size = new System.Drawing.Size(106, 27);
@@ -137,23 +138,41 @@
             // 
             // btn_SavePlayer
             // 
+            this.btn_SavePlayer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btn_SavePlayer.Font = new System.Drawing.Font("Gill Sans MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_SavePlayer.ForeColor = System.Drawing.Color.DarkRed;
-            this.btn_SavePlayer.Location = new System.Drawing.Point(46, 451);
+            this.btn_SavePlayer.Location = new System.Drawing.Point(18, 451);
             this.btn_SavePlayer.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_SavePlayer.Name = "btn_SavePlayer";
-            this.btn_SavePlayer.Size = new System.Drawing.Size(418, 56);
+            this.btn_SavePlayer.Size = new System.Drawing.Size(189, 56);
             this.btn_SavePlayer.TabIndex = 5;
-            this.btn_SavePlayer.Text = "Create Character";
+            this.btn_SavePlayer.Text = "Create";
             this.btn_SavePlayer.UseVisualStyleBackColor = true;
             this.btn_SavePlayer.Click += new System.EventHandler(this.Btn_SavePlayer_Click);
+            // 
+            // btn_Cancel
+            // 
+            this.btn_Cancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Cancel.Font = new System.Drawing.Font("Gill Sans MT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Cancel.ForeColor = System.Drawing.Color.DarkRed;
+            this.btn_Cancel.Location = new System.Drawing.Point(256, 451);
+            this.btn_Cancel.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_Cancel.Name = "btn_Cancel";
+            this.btn_Cancel.Size = new System.Drawing.Size(189, 56);
+            this.btn_Cancel.TabIndex = 6;
+            this.btn_Cancel.Text = "Cancel";
+            this.btn_Cancel.UseVisualStyleBackColor = true;
+            this.btn_Cancel.Click += new System.EventHandler(this.btn_Cancel_Click);
             // 
             // NewPlayerScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 27F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(484, 522);
+            this.ClientSize = new System.Drawing.Size(458, 522);
+            this.Controls.Add(this.btn_Cancel);
             this.Controls.Add(this.btn_SavePlayer);
             this.Controls.Add(this.lbl_Level);
             this.Controls.Add(this.cbx_Level);
@@ -187,5 +206,6 @@
         private System.Windows.Forms.ComboBox cbx_Level;
         private System.Windows.Forms.Label lbl_Level;
         private System.Windows.Forms.Button btn_SavePlayer;
+        private System.Windows.Forms.Button btn_Cancel;
     }
 }

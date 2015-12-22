@@ -28,8 +28,9 @@ namespace RPGame.Forms
 
             string name;
             string output="";
+            Player player1 = null;
             EntityGender gender=EntityGender.Other;
-            playerLevel level=playerLevel.Amateur;
+            playerLevel level;
 
             
             // Name Verification
@@ -69,29 +70,35 @@ namespace RPGame.Forms
             {
                 MessageBox.Show("Grab your balls " + name + ", and may The Force be with you!");
 
-
+                
 
 
                 switch (cbx_Level.Text)
                 {
                     case "Amateur":
+                    
                         level = playerLevel.Amateur;
+                        player1 = new Amateur(name, gender);
                         break;
+                    
                     case "Beginner":
                         level = playerLevel.Beginner;
+                        player1 = new Beginner (name, gender);
                         break;
                     case "Pro":
                         level = playerLevel.Pro;
+                   //     Player player1 = new Pro (name, gender);
                         break;
                     case "Expert":
                         level = playerLevel.Expert;
+                        //     Player player1 = new Expert (name, gender);
                         break;
                     case "Legend":
                         level = playerLevel.Legend;
                         break;
                 }
 
-                Player player1 = new Player(name, gender, level, 0);
+             //   Player player1 = new Amateur (name, gender, level, 0);
 
                 this.Close();
             }
@@ -105,6 +112,11 @@ namespace RPGame.Forms
         private void gbx_Gender_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_Cancel_Click(object sender, EventArgs e)
+        {
+            ActiveForm.Close();
         }
     }
 }

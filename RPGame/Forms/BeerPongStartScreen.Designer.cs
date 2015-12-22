@@ -40,6 +40,7 @@
             // 
             // lbl_GameSlogan
             // 
+            this.lbl_GameSlogan.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_GameSlogan.AutoSize = true;
             this.lbl_GameSlogan.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_GameSlogan.ForeColor = System.Drawing.Color.Firebrick;
@@ -54,6 +55,7 @@
             // 
             this.btn_NewGame.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar;
             this.btn_NewGame.AutoSize = true;
+            this.btn_NewGame.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_NewGame.BackColor = System.Drawing.Color.White;
             this.btn_NewGame.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_NewGame.Cursor = System.Windows.Forms.Cursors.Default;
@@ -66,7 +68,7 @@
             this.btn_NewGame.Location = new System.Drawing.Point(31, 651);
             this.btn_NewGame.Margin = new System.Windows.Forms.Padding(0);
             this.btn_NewGame.Name = "btn_NewGame";
-            this.btn_NewGame.Size = new System.Drawing.Size(160, 48);
+            this.btn_NewGame.Size = new System.Drawing.Size(158, 40);
             this.btn_NewGame.TabIndex = 1;
             this.btn_NewGame.Text = "New Game";
             this.btn_NewGame.UseVisualStyleBackColor = false;
@@ -75,6 +77,7 @@
             // btn_Options
             // 
             this.btn_Options.AutoSize = true;
+            this.btn_Options.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_Options.BackColor = System.Drawing.Color.White;
             this.btn_Options.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_Options.Cursor = System.Windows.Forms.Cursors.Default;
@@ -84,10 +87,10 @@
             this.btn_Options.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tomato;
             this.btn_Options.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Options.ForeColor = System.Drawing.Color.Firebrick;
-            this.btn_Options.Location = new System.Drawing.Point(712, 651);
+            this.btn_Options.Location = new System.Drawing.Point(719, 651);
             this.btn_Options.Margin = new System.Windows.Forms.Padding(0);
             this.btn_Options.Name = "btn_Options";
-            this.btn_Options.Size = new System.Drawing.Size(160, 48);
+            this.btn_Options.Size = new System.Drawing.Size(123, 40);
             this.btn_Options.TabIndex = 1;
             this.btn_Options.Text = "Options";
             this.btn_Options.UseVisualStyleBackColor = false;
@@ -97,6 +100,7 @@
             // 
             this.btn_NewPlayer.AllowDrop = true;
             this.btn_NewPlayer.AutoSize = true;
+            this.btn_NewPlayer.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_NewPlayer.BackColor = System.Drawing.Color.White;
             this.btn_NewPlayer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_NewPlayer.Cursor = System.Windows.Forms.Cursors.Default;
@@ -106,10 +110,10 @@
             this.btn_NewPlayer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tomato;
             this.btn_NewPlayer.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_NewPlayer.ForeColor = System.Drawing.Color.Firebrick;
-            this.btn_NewPlayer.Location = new System.Drawing.Point(482, 651);
+            this.btn_NewPlayer.Location = new System.Drawing.Point(480, 652);
             this.btn_NewPlayer.Margin = new System.Windows.Forms.Padding(0);
             this.btn_NewPlayer.Name = "btn_NewPlayer";
-            this.btn_NewPlayer.Size = new System.Drawing.Size(168, 48);
+            this.btn_NewPlayer.Size = new System.Drawing.Size(168, 39);
             this.btn_NewPlayer.TabIndex = 0;
             this.btn_NewPlayer.Text = "New Player";
             this.btn_NewPlayer.UseCompatibleTextRendering = true;
@@ -119,6 +123,7 @@
             // btn_About
             // 
             this.btn_About.AutoSize = true;
+            this.btn_About.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_About.BackColor = System.Drawing.Color.White;
             this.btn_About.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_About.Cursor = System.Windows.Forms.Cursors.Default;
@@ -131,7 +136,7 @@
             this.btn_About.Location = new System.Drawing.Point(1153, 651);
             this.btn_About.Margin = new System.Windows.Forms.Padding(0);
             this.btn_About.Name = "btn_About";
-            this.btn_About.Size = new System.Drawing.Size(160, 48);
+            this.btn_About.Size = new System.Drawing.Size(105, 40);
             this.btn_About.TabIndex = 3;
             this.btn_About.Text = "About";
             this.btn_About.UseVisualStyleBackColor = false;
@@ -140,6 +145,7 @@
             // btn_HighScores
             // 
             this.btn_HighScores.AutoSize = true;
+            this.btn_HighScores.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_HighScores.BackColor = System.Drawing.Color.White;
             this.btn_HighScores.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_HighScores.Cursor = System.Windows.Forms.Cursors.Default;
@@ -149,10 +155,10 @@
             this.btn_HighScores.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Tomato;
             this.btn_HighScores.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_HighScores.ForeColor = System.Drawing.Color.Firebrick;
-            this.btn_HighScores.Location = new System.Drawing.Point(933, 651);
+            this.btn_HighScores.Location = new System.Drawing.Point(910, 650);
             this.btn_HighScores.Margin = new System.Windows.Forms.Padding(0);
             this.btn_HighScores.Name = "btn_HighScores";
-            this.btn_HighScores.Size = new System.Drawing.Size(177, 48);
+            this.btn_HighScores.Size = new System.Drawing.Size(177, 40);
             this.btn_HighScores.TabIndex = 4;
             this.btn_HighScores.Text = "High Scores";
             this.btn_HighScores.UseVisualStyleBackColor = false;
@@ -162,6 +168,7 @@
             // 
             this.btn_LoadPlayer.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar;
             this.btn_LoadPlayer.AutoSize = true;
+            this.btn_LoadPlayer.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btn_LoadPlayer.BackColor = System.Drawing.Color.White;
             this.btn_LoadPlayer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn_LoadPlayer.Cursor = System.Windows.Forms.Cursors.Default;
@@ -174,7 +181,7 @@
             this.btn_LoadPlayer.Location = new System.Drawing.Point(244, 651);
             this.btn_LoadPlayer.Margin = new System.Windows.Forms.Padding(0);
             this.btn_LoadPlayer.Name = "btn_LoadPlayer";
-            this.btn_LoadPlayer.Size = new System.Drawing.Size(178, 48);
+            this.btn_LoadPlayer.Size = new System.Drawing.Size(178, 40);
             this.btn_LoadPlayer.TabIndex = 5;
             this.btn_LoadPlayer.Text = "Load Player";
             this.btn_LoadPlayer.UseVisualStyleBackColor = false;
@@ -184,6 +191,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;

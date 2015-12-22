@@ -36,7 +36,8 @@ namespace RPGame
 
         private void btn_About_Click(object sender, EventArgs e)
         {
-
+            About aboutForm = new About();
+            aboutForm.Show();
         }
 
         private void btn_NewGame_Click(object sender, EventArgs e)

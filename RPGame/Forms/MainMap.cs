@@ -16,5 +16,11 @@ namespace RPGame.Forms
         {
             InitializeComponent();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            GameScreen gameScreen = new GameScreen();
+            gameScreen.Show();
+        }
     }
 }
