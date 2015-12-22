@@ -29,17 +29,27 @@ namespace RPGame.Forms
 
         private void tbx_Angle_TextChanged(object sender, EventArgs e)
         {
-
+            int angle;
+            bool success=false;
+             success= int.TryParse(this.tbx_Angle.Text, out angle);
+            if (angle < 0)
+            {
+                angle = angle*-1;
+            }
+            if (angle > 360)
+            {
+                angle = angle/360;} 
         }
 
         private void lbl_Angle_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         private void tbx_Strength_TextChanged(object sender, EventArgs e)
         {
-
+            int strength;
+            strength = int.Parse(this.tbx_Strength.Text);
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

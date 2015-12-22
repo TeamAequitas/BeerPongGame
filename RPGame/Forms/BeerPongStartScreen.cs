@@ -54,7 +54,8 @@ namespace RPGame
 
         private void btn_HighScores_Click(object sender, EventArgs e)
         {
-
+            HighScores highScoresForm = new HighScores();
+            highScoresForm.Show();
         }
     }
 }

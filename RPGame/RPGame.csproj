@@ -120,6 +120,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
@@ -135,7 +136,21 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Map\map01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beerbaRedr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BrreBarTr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ball.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

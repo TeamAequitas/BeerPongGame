@@ -22,5 +22,11 @@ namespace RPGame.Forms
             GameScreen gameScreen = new GameScreen();
             gameScreen.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            GameScreen gameScreen = new GameScreen();
+            gameScreen.Show();
+        }
     }
 }
